@@ -7,9 +7,10 @@ from airflow.settings import Session
 from airflow.models.taskinstance import TaskInstance
 from pprint import pprint
 
-#==============this code added==================================================================:
+#============== PyCharm Remote Debugging ========================================================:
+# PyCharm Remote Debugging 코드로써 Dag에서 PyCharm을 호출하므로 방화벽 설정이 Outbound이어야 함
+#
 #import pydevd_pycharm
-
 #pydevd_pycharm.settrace('10.0.1.202', port=12345, stdoutToServer=True, stderrToServer=True)
 #================================================================================================
 
@@ -26,7 +27,7 @@ from airflow.operators.python import (
 )
 
 with DAG(
-    'fharenheit',
+    'fharenheit', # Dag ID로 DB에 저장되므로 변경되면 다른것으로 인식
     # These args will get passed on to each operator
     # You can override them on a per-task basis during operator initialization
     default_args={
@@ -57,7 +58,7 @@ with DAG(
 ) as dag:
 
     def get_previous_success_timestamp(ds=None, **context):
-        print("Context에서 값을 출")
+        print("Context에서 값 추출")
         print(context['prev_data_interval_end_success'])
         print((context['prev_data_interval_end_success']).format('YYYY-MM-DD HH:mm:ss.SSS'))
         return context['prev_data_interval_end_success']
