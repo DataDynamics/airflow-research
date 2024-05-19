@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "uri": "s3://unrelated_task/dataset_other_unknown.txt",
+    "extra": {},
+    "created_at": "2024-05-18 19:43:37.685126 +00:00",
+    "updated_at": "2024-05-19 23:10:38.378251 +00:00",
+    "is_orphaned": false
+  },
+  {
+    "id": 2,
+    "uri": "s3://consuming_2_task/dataset_other_unknown.txt",
+    "extra": {},
+    "created_at": "2024-05-18 19:43:37.685135 +00:00",
+    "updated_at": "2024-05-19 23:10:38.378813 +00:00",
+    "is_orphaned": false
+  },
+  {
+    "id": 3,
+    "uri": "s3://dataset_time_based/dataset_other_unknown.txt",
+    "extra": {},
+    "created_at": "2024-05-18 19:43:37.685141 +00:00",
+    "updated_at": "2024-05-19 23:10:38.379180 +00:00",
+    "is_orphaned": false
+  },
+  {
+    "id": 4,
+    "uri": "s3://dag1/output_1.txt",
+    "extra": {"hi": "bye"},
+    "created_at": "2024-05-18 19:43:37.686082 +00:00",
+    "updated_at": "2024-05-19 23:10:38.379585 +00:00",
+    "is_orphaned": false
+  },
+  {
+    "id": 5,
+    "uri": "s3://consuming_1_task/dataset_other.txt",
+    "extra": {},
+    "created_at": "2024-05-18 19:43:37.686673 +00:00",
+    "updated_at": "2024-05-19 23:10:38.379945 +00:00",
+    "is_orphaned": false
+  },
+  {
+    "id": 6,
+    "uri": "s3://dag2/output_1.txt",
+    "extra": {"hi": "bye"},
+    "created_at": "2024-05-18 19:43:37.687059 +00:00",
+    "updated_at": "2024-05-19 23:10:38.380300 +00:00",
+    "is_orphaned": false
+  },
+  {
+    "id": 7,
+    "uri": "s3://unrelated/dataset3.txt",
+    "extra": {},
+    "created_at": "2024-05-18 19:43:37.687598 +00:00",
+    "updated_at": "2024-05-19 23:10:38.380685 +00:00",
+    "is_orphaned": false
+  },
+  {
+    "id": 8,
+    "uri": "s3://unrelated/dataset_other_unknown.txt",
+    "extra": {},
+    "created_at": "2024-05-18 19:43:37.687608 +00:00",
+    "updated_at": "2024-05-19 23:10:38.381049 +00:00",
+    "is_orphaned": false
+  },
+  {
+    "id": 9,
+    "uri": "s3://unrelated/this-dataset-doesnt-get-triggered",
+    "extra": {},
+    "created_at": "2024-05-18 19:43:37.687613 +00:00",
+    "updated_at": "2024-05-19 23:10:38.381425 +00:00",
+    "is_orphaned": false
+  },
+  {
+    "id": 10,
+    "uri": "s3://dag3/output_3.txt",
+    "extra": {"hi": "bye"},
+    "created_at": "2024-05-18 19:43:37.688097 +00:00",
+    "updated_at": "2024-05-19 23:10:38.381779 +00:00",
+    "is_orphaned": false
+  }
+]

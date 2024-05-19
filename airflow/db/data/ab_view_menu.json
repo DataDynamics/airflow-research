@@ -1,0 +1,450 @@
+[
+  {
+    "id": 1,
+    "name": "IndexView"
+  },
+  {
+    "id": 2,
+    "name": "UtilView"
+  },
+  {
+    "id": 3,
+    "name": "LocaleView"
+  },
+  {
+    "id": 4,
+    "name": "Passwords"
+  },
+  {
+    "id": 5,
+    "name": "My Password"
+  },
+  {
+    "id": 6,
+    "name": "My Profile"
+  },
+  {
+    "id": 7,
+    "name": "AuthDBView"
+  },
+  {
+    "id": 8,
+    "name": "Users"
+  },
+  {
+    "id": 9,
+    "name": "List Users"
+  },
+  {
+    "id": 10,
+    "name": "Security"
+  },
+  {
+    "id": 11,
+    "name": "Roles"
+  },
+  {
+    "id": 12,
+    "name": "List Roles"
+  },
+  {
+    "id": 13,
+    "name": "User Stats Chart"
+  },
+  {
+    "id": 14,
+    "name": "User's Statistics"
+  },
+  {
+    "id": 15,
+    "name": "Permissions"
+  },
+  {
+    "id": 16,
+    "name": "Actions"
+  },
+  {
+    "id": 17,
+    "name": "View Menus"
+  },
+  {
+    "id": 18,
+    "name": "Resources"
+  },
+  {
+    "id": 19,
+    "name": "Permission Views"
+  },
+  {
+    "id": 20,
+    "name": "Permission Pairs"
+  },
+  {
+    "id": 21,
+    "name": "DAG:example_bash_decorator"
+  },
+  {
+    "id": 22,
+    "name": "DAG:example_bash_operator"
+  },
+  {
+    "id": 23,
+    "name": "DAG:example_branch_datetime_operator"
+  },
+  {
+    "id": 24,
+    "name": "DAG:example_branch_datetime_operator_3"
+  },
+  {
+    "id": 25,
+    "name": "DAG:example_branch_datetime_operator_2"
+  },
+  {
+    "id": 26,
+    "name": "DAG:example_weekday_branch_operator"
+  },
+  {
+    "id": 27,
+    "name": "DAG:example_branch_labels"
+  },
+  {
+    "id": 28,
+    "name": "DAG:example_branch_dop_operator_v3"
+  },
+  {
+    "id": 29,
+    "name": "DAG:example_complex"
+  },
+  {
+    "id": 30,
+    "name": "DAG:example_dag_decorator"
+  },
+  {
+    "id": 31,
+    "name": "DAG:dataset_consumes_unknown_never_scheduled"
+  },
+  {
+    "id": 32,
+    "name": "DAG:consume_1_or_2_with_dataset_expressions"
+  },
+  {
+    "id": 33,
+    "name": "DAG:conditional_dataset_and_time_based_timetable"
+  },
+  {
+    "id": 34,
+    "name": "DAG:dataset_consumes_1_never_scheduled"
+  },
+  {
+    "id": 35,
+    "name": "DAG:consume_1_and_2_with_dataset_expressions"
+  },
+  {
+    "id": 36,
+    "name": "DAG:dataset_produces_1"
+  },
+  {
+    "id": 37,
+    "name": "DAG:dataset_consumes_1"
+  },
+  {
+    "id": 38,
+    "name": "DAG:dataset_consumes_1_and_2"
+  },
+  {
+    "id": 39,
+    "name": "DAG:consume_1_or_both_2_and_3_with_dataset_expressions"
+  },
+  {
+    "id": 40,
+    "name": "DAG:dataset_produces_2"
+  },
+  {
+    "id": 41,
+    "name": "DAG:example_display_name"
+  },
+  {
+    "id": 42,
+    "name": "DAG:example_dynamic_task_mapping"
+  },
+  {
+    "id": 43,
+    "name": "DAG:example_dynamic_task_mapping_with_no_taskflow_operators"
+  },
+  {
+    "id": 44,
+    "name": "DAG:example_external_task_marker_child"
+  },
+  {
+    "id": 45,
+    "name": "DAG:example_external_task_marker_parent"
+  },
+  {
+    "id": 46,
+    "name": "DAG:latest_only"
+  },
+  {
+    "id": 47,
+    "name": "DAG:latest_only_with_trigger"
+  },
+  {
+    "id": 48,
+    "name": "DAG:example_nested_branch_dag"
+  },
+  {
+    "id": 49,
+    "name": "DAG:example_params_trigger_ui"
+  },
+  {
+    "id": 50,
+    "name": "DAG:example_params_ui_tutorial"
+  },
+  {
+    "id": 51,
+    "name": "DAG:example_passing_params_via_test_command"
+  },
+  {
+    "id": 52,
+    "name": "DAG:example_python_decorator"
+  },
+  {
+    "id": 53,
+    "name": "DAG:example_python_operator"
+  },
+  {
+    "id": 54,
+    "name": "DAG:example_sensor_decorator"
+  },
+  {
+    "id": 55,
+    "name": "DAG:example_sensors"
+  },
+  {
+    "id": 56,
+    "name": "DAG:example_setup_teardown"
+  },
+  {
+    "id": 57,
+    "name": "DAG:example_setup_teardown_taskflow"
+  },
+  {
+    "id": 58,
+    "name": "DAG:example_short_circuit_decorator"
+  },
+  {
+    "id": 59,
+    "name": "DAG:example_short_circuit_operator"
+  },
+  {
+    "id": 60,
+    "name": "DAG:example_skip_dag"
+  },
+  {
+    "id": 61,
+    "name": "DAG:example_sla_dag"
+  },
+  {
+    "id": 62,
+    "name": "DAG:example_subdag_operator"
+  },
+  {
+    "id": 63,
+    "name": "DAG:example_task_group"
+  },
+  {
+    "id": 64,
+    "name": "DAG:example_task_group_decorator"
+  },
+  {
+    "id": 65,
+    "name": "DAG:example_time_delta_sensor_async"
+  },
+  {
+    "id": 66,
+    "name": "DAG:example_trigger_controller_dag"
+  },
+  {
+    "id": 67,
+    "name": "DAG:example_trigger_target_dag"
+  },
+  {
+    "id": 68,
+    "name": "DAG:example_xcom"
+  },
+  {
+    "id": 69,
+    "name": "DAG:example_xcom_args_with_operators"
+  },
+  {
+    "id": 70,
+    "name": "DAG:example_xcom_args"
+  },
+  {
+    "id": 71,
+    "name": "DAG:tutorial"
+  },
+  {
+    "id": 72,
+    "name": "DAG:tutorial_dag"
+  },
+  {
+    "id": 73,
+    "name": "DAG:tutorial_objectstorage"
+  },
+  {
+    "id": 74,
+    "name": "DAG:tutorial_taskflow_api"
+  },
+  {
+    "id": 75,
+    "name": "AutocompleteView"
+  },
+  {
+    "id": 76,
+    "name": "Airflow"
+  },
+  {
+    "id": 77,
+    "name": "DAG Runs"
+  },
+  {
+    "id": 78,
+    "name": "Browse"
+  },
+  {
+    "id": 79,
+    "name": "Jobs"
+  },
+  {
+    "id": 80,
+    "name": "Audit Logs"
+  },
+  {
+    "id": 81,
+    "name": "Variables"
+  },
+  {
+    "id": 82,
+    "name": "Admin"
+  },
+  {
+    "id": 83,
+    "name": "Task Instances"
+  },
+  {
+    "id": 84,
+    "name": "Task Reschedules"
+  },
+  {
+    "id": 85,
+    "name": "Triggers"
+  },
+  {
+    "id": 86,
+    "name": "Configurations"
+  },
+  {
+    "id": 87,
+    "name": "Connections"
+  },
+  {
+    "id": 88,
+    "name": "SLA Misses"
+  },
+  {
+    "id": 89,
+    "name": "Plugins"
+  },
+  {
+    "id": 90,
+    "name": "Providers"
+  },
+  {
+    "id": 91,
+    "name": "Pools"
+  },
+  {
+    "id": 92,
+    "name": "XComs"
+  },
+  {
+    "id": 93,
+    "name": "DagDependenciesView"
+  },
+  {
+    "id": 94,
+    "name": "DAG Dependencies"
+  },
+  {
+    "id": 95,
+    "name": "RedocView"
+  },
+  {
+    "id": 96,
+    "name": "DevView"
+  },
+  {
+    "id": 97,
+    "name": "DocsView"
+  },
+  {
+    "id": 98,
+    "name": "DAGs"
+  },
+  {
+    "id": 99,
+    "name": "Cluster Activity"
+  },
+  {
+    "id": 100,
+    "name": "Datasets"
+  },
+  {
+    "id": 101,
+    "name": "Documentation"
+  },
+  {
+    "id": 102,
+    "name": "Docs"
+  },
+  {
+    "id": 103,
+    "name": "DAG Code"
+  },
+  {
+    "id": 104,
+    "name": "ImportError"
+  },
+  {
+    "id": 105,
+    "name": "DAG Warnings"
+  },
+  {
+    "id": 106,
+    "name": "Task Logs"
+  },
+  {
+    "id": 107,
+    "name": "Website"
+  },
+  {
+    "id": 108,
+    "name": "DAG:example_local_kubernetes_executor"
+  },
+  {
+    "id": 109,
+    "name": "DAG:example_kubernetes_executor"
+  },
+  {
+    "id": 110,
+    "name": "AppBuilderCodeEditorView"
+  },
+  {
+    "id": 111,
+    "name": "DAGs Code Editor"
+  },
+  {
+    "id": 112,
+    "name": "DAG:fharenheit"
+  }
+]

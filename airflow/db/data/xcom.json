@@ -1,0 +1,712 @@
+[
+  {
+    "dag_run_id": 1,
+    "task_id": "producing_task_1",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "dataset_produces_1",
+    "run_id": "manual__2024-05-18T20:10:52.051590+00:00",
+    "value": "\"\"",
+    "timestamp": "2024-05-18 20:10:58.741339 +00:00"
+  },
+  {
+    "dag_run_id": 2,
+    "task_id": "producing_task_1",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "dataset_produces_1",
+    "run_id": "scheduled__2024-05-17T00:00:00+00:00",
+    "value": "\"\"",
+    "timestamp": "2024-05-18 20:10:58.748537 +00:00"
+  },
+  {
+    "dag_run_id": 1,
+    "task_id": "producing_task_1",
+    "map_index": -1,
+    "key": "pipeline_outlets",
+    "dag_id": "dataset_produces_1",
+    "run_id": "manual__2024-05-18T20:10:52.051590+00:00",
+    "value": "[{\"__classname__\": \"airflow.datasets.Dataset\", \"__version__\": 1, \"__data__\": {\"uri\": \"s3://dag1/output_1.txt\", \"extra\": {\"hi\": \"bye\"}}}]",
+    "timestamp": "2024-05-18 20:10:58.764777 +00:00"
+  },
+  {
+    "dag_run_id": 2,
+    "task_id": "producing_task_1",
+    "map_index": -1,
+    "key": "pipeline_outlets",
+    "dag_id": "dataset_produces_1",
+    "run_id": "scheduled__2024-05-17T00:00:00+00:00",
+    "value": "[{\"__classname__\": \"airflow.datasets.Dataset\", \"__version__\": 1, \"__data__\": {\"uri\": \"s3://dag1/output_1.txt\", \"extra\": {\"hi\": \"bye\"}}}]",
+    "timestamp": "2024-05-18 20:10:58.768792 +00:00"
+  },
+  {
+    "dag_run_id": 4,
+    "task_id": "also_run_this",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "example_bash_operator",
+    "run_id": "scheduled__2024-05-17T00:00:00+00:00",
+    "value": "\"ti_key=example_bash_operator__also_run_this__20240517\"",
+    "timestamp": "2024-05-18 20:11:53.502895 +00:00"
+  },
+  {
+    "dag_run_id": 3,
+    "task_id": "also_run_this",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "example_bash_operator",
+    "run_id": "manual__2024-05-19T05:11:46+09:00",
+    "value": "\"ti_key=example_bash_operator__also_run_this__20240518\"",
+    "timestamp": "2024-05-18 20:11:53.905393 +00:00"
+  },
+  {
+    "dag_run_id": 4,
+    "task_id": "runme_2",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "example_bash_operator",
+    "run_id": "scheduled__2024-05-17T00:00:00+00:00",
+    "value": "\"example_bash_operator__runme_2__20240517\"",
+    "timestamp": "2024-05-18 20:11:54.395134 +00:00"
+  },
+  {
+    "dag_run_id": 3,
+    "task_id": "runme_0",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "example_bash_operator",
+    "run_id": "manual__2024-05-19T05:11:46+09:00",
+    "value": "\"example_bash_operator__runme_0__20240518\"",
+    "timestamp": "2024-05-18 20:11:54.533295 +00:00"
+  },
+  {
+    "dag_run_id": 4,
+    "task_id": "runme_0",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "example_bash_operator",
+    "run_id": "scheduled__2024-05-17T00:00:00+00:00",
+    "value": "\"example_bash_operator__runme_0__20240517\"",
+    "timestamp": "2024-05-18 20:11:54.653223 +00:00"
+  },
+  {
+    "dag_run_id": 3,
+    "task_id": "runme_1",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "example_bash_operator",
+    "run_id": "manual__2024-05-19T05:11:46+09:00",
+    "value": "\"example_bash_operator__runme_1__20240518\"",
+    "timestamp": "2024-05-18 20:11:54.787553 +00:00"
+  },
+  {
+    "dag_run_id": 4,
+    "task_id": "runme_1",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "example_bash_operator",
+    "run_id": "scheduled__2024-05-17T00:00:00+00:00",
+    "value": "\"example_bash_operator__runme_1__20240517\"",
+    "timestamp": "2024-05-18 20:11:54.826990 +00:00"
+  },
+  {
+    "dag_run_id": 3,
+    "task_id": "runme_2",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "example_bash_operator",
+    "run_id": "manual__2024-05-19T05:11:46+09:00",
+    "value": "\"example_bash_operator__runme_2__20240518\"",
+    "timestamp": "2024-05-18 20:11:54.863432 +00:00"
+  },
+  {
+    "dag_run_id": 4,
+    "task_id": "run_after_loop",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "example_bash_operator",
+    "run_id": "scheduled__2024-05-17T00:00:00+00:00",
+    "value": "\"some <code>html</code>\"",
+    "timestamp": "2024-05-18 20:11:56.165720 +00:00"
+  },
+  {
+    "dag_run_id": 3,
+    "task_id": "run_after_loop",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "example_bash_operator",
+    "run_id": "manual__2024-05-19T05:11:46+09:00",
+    "value": "\"some <code>html</code>\"",
+    "timestamp": "2024-05-18 20:11:56.200082 +00:00"
+  },
+  {
+    "dag_run_id": 6,
+    "task_id": "print_date",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "tutorial",
+    "run_id": "scheduled__2024-05-17T00:00:00+00:00",
+    "value": "\"Sun May 19 05:14:03 KST 2024\"",
+    "timestamp": "2024-05-18 20:14:03.267575 +00:00"
+  },
+  {
+    "dag_run_id": 5,
+    "task_id": "print_date",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "tutorial",
+    "run_id": "manual__2024-05-18T20:14:01.350832+00:00",
+    "value": "\"Sun May 19 05:14:03 KST 2024\"",
+    "timestamp": "2024-05-18 20:14:03.307980 +00:00"
+  },
+  {
+    "dag_run_id": 6,
+    "task_id": "templated",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "tutorial",
+    "run_id": "scheduled__2024-05-17T00:00:00+00:00",
+    "value": "\"2024-05-24\"",
+    "timestamp": "2024-05-18 20:14:04.441584 +00:00"
+  },
+  {
+    "dag_run_id": 5,
+    "task_id": "templated",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "tutorial",
+    "run_id": "manual__2024-05-18T20:14:01.350832+00:00",
+    "value": "\"2024-05-25\"",
+    "timestamp": "2024-05-18 20:14:04.465448 +00:00"
+  },
+  {
+    "dag_run_id": 5,
+    "task_id": "sleep",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "tutorial",
+    "run_id": "manual__2024-05-18T20:14:01.350832+00:00",
+    "value": "\"\"",
+    "timestamp": "2024-05-18 20:14:09.447901 +00:00"
+  },
+  {
+    "dag_run_id": 6,
+    "task_id": "sleep",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "tutorial",
+    "run_id": "scheduled__2024-05-17T00:00:00+00:00",
+    "value": "\"\"",
+    "timestamp": "2024-05-18 20:14:09.448428 +00:00"
+  },
+  {
+    "dag_run_id": 8,
+    "task_id": "also_run_this",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "example_bash_operator",
+    "run_id": "manual__2024-05-19T05:38:42+09:00",
+    "value": "\"ti_key=example_bash_operator__also_run_this__20240518\"",
+    "timestamp": "2024-05-18 20:38:46.525056 +00:00"
+  },
+  {
+    "dag_run_id": 8,
+    "task_id": "runme_0",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "example_bash_operator",
+    "run_id": "manual__2024-05-19T05:38:42+09:00",
+    "value": "\"example_bash_operator__runme_0__20240518\"",
+    "timestamp": "2024-05-18 20:38:47.625073 +00:00"
+  },
+  {
+    "dag_run_id": 8,
+    "task_id": "runme_2",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "example_bash_operator",
+    "run_id": "manual__2024-05-19T05:38:42+09:00",
+    "value": "\"example_bash_operator__runme_2__20240518\"",
+    "timestamp": "2024-05-18 20:38:47.630168 +00:00"
+  },
+  {
+    "dag_run_id": 8,
+    "task_id": "runme_1",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "example_bash_operator",
+    "run_id": "manual__2024-05-19T05:38:42+09:00",
+    "value": "\"example_bash_operator__runme_1__20240518\"",
+    "timestamp": "2024-05-18 20:38:47.646005 +00:00"
+  },
+  {
+    "dag_run_id": 8,
+    "task_id": "run_after_loop",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "example_bash_operator",
+    "run_id": "manual__2024-05-19T05:38:42+09:00",
+    "value": "\"some <code>html</code>\"",
+    "timestamp": "2024-05-18 20:38:49.075668 +00:00"
+  },
+  {
+    "dag_run_id": 10,
+    "task_id": "print_date",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "fharenheit",
+    "run_id": "scheduled__2024-05-17T00:00:00+00:00",
+    "value": "\"Sun May 19 06:33:14 KST 2024\"",
+    "timestamp": "2024-05-18 21:33:14.584807 +00:00"
+  },
+  {
+    "dag_run_id": 10,
+    "task_id": "templated",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "fharenheit",
+    "run_id": "scheduled__2024-05-17T00:00:00+00:00",
+    "value": "\"2024-05-24\"",
+    "timestamp": "2024-05-18 21:33:15.771705 +00:00"
+  },
+  {
+    "dag_run_id": 10,
+    "task_id": "sleep",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "fharenheit",
+    "run_id": "scheduled__2024-05-17T00:00:00+00:00",
+    "value": "\"\"",
+    "timestamp": "2024-05-18 21:33:20.837417 +00:00"
+  },
+  {
+    "dag_run_id": 9,
+    "task_id": "print_date",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "fharenheit",
+    "run_id": "manual__2024-05-18T21:33:12.685798+00:00",
+    "value": "\"Sun May 19 07:52:33 KST 2024\"",
+    "timestamp": "2024-05-18 22:52:33.715633 +00:00"
+  },
+  {
+    "dag_run_id": 9,
+    "task_id": "templated",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "fharenheit",
+    "run_id": "manual__2024-05-18T21:33:12.685798+00:00",
+    "value": "\"2024-05-25\"",
+    "timestamp": "2024-05-18 22:52:34.838161 +00:00"
+  },
+  {
+    "dag_run_id": 9,
+    "task_id": "sleep",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "fharenheit",
+    "run_id": "manual__2024-05-18T21:33:12.685798+00:00",
+    "value": "\"\"",
+    "timestamp": "2024-05-18 22:52:39.840544 +00:00"
+  },
+  {
+    "dag_run_id": 7,
+    "task_id": "runme_0",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "example_bash_operator",
+    "run_id": "manual__2024-05-19T05:28:24+09:00",
+    "value": "\"example_bash_operator__runme_0__20240518\"",
+    "timestamp": "2024-05-18 23:42:01.348386 +00:00"
+  },
+  {
+    "dag_run_id": 7,
+    "task_id": "run_after_loop",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "example_bash_operator",
+    "run_id": "manual__2024-05-19T05:28:24+09:00",
+    "value": "\"some <code>html</code>\"",
+    "timestamp": "2024-05-18 23:42:02.711500 +00:00"
+  },
+  {
+    "dag_run_id": 13,
+    "task_id": "print_date",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "tutorial",
+    "run_id": "scheduled__2024-05-18T00:00:00+00:00",
+    "value": "\"Sun May 19 09:00:01 KST 2024\"",
+    "timestamp": "2024-05-19 00:00:01.933092 +00:00"
+  },
+  {
+    "dag_run_id": 12,
+    "task_id": "also_run_this",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "example_bash_operator",
+    "run_id": "scheduled__2024-05-18T00:00:00+00:00",
+    "value": "\"ti_key=example_bash_operator__also_run_this__20240518\"",
+    "timestamp": "2024-05-19 00:00:01.963743 +00:00"
+  },
+  {
+    "dag_run_id": 12,
+    "task_id": "runme_0",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "example_bash_operator",
+    "run_id": "scheduled__2024-05-18T00:00:00+00:00",
+    "value": "\"example_bash_operator__runme_0__20240518\"",
+    "timestamp": "2024-05-19 00:00:02.855462 +00:00"
+  },
+  {
+    "dag_run_id": 12,
+    "task_id": "runme_1",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "example_bash_operator",
+    "run_id": "scheduled__2024-05-18T00:00:00+00:00",
+    "value": "\"example_bash_operator__runme_1__20240518\"",
+    "timestamp": "2024-05-19 00:00:02.855594 +00:00"
+  },
+  {
+    "dag_run_id": 12,
+    "task_id": "runme_2",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "example_bash_operator",
+    "run_id": "scheduled__2024-05-18T00:00:00+00:00",
+    "value": "\"example_bash_operator__runme_2__20240518\"",
+    "timestamp": "2024-05-19 00:00:03.046338 +00:00"
+  },
+  {
+    "dag_run_id": 13,
+    "task_id": "templated",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "tutorial",
+    "run_id": "scheduled__2024-05-18T00:00:00+00:00",
+    "value": "\"2024-05-25\"",
+    "timestamp": "2024-05-19 00:00:03.371465 +00:00"
+  },
+  {
+    "dag_run_id": 12,
+    "task_id": "run_after_loop",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "example_bash_operator",
+    "run_id": "scheduled__2024-05-18T00:00:00+00:00",
+    "value": "\"some <code>html</code>\"",
+    "timestamp": "2024-05-19 00:00:05.170727 +00:00"
+  },
+  {
+    "dag_run_id": 13,
+    "task_id": "sleep",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "tutorial",
+    "run_id": "scheduled__2024-05-18T00:00:00+00:00",
+    "value": "\"\"",
+    "timestamp": "2024-05-19 00:00:08.407646 +00:00"
+  },
+  {
+    "dag_run_id": 14,
+    "task_id": "print_date",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "fharenheit",
+    "run_id": "scheduled__2024-05-18T00:00:00+00:00",
+    "value": "\"Sun May 19 11:25:33 KST 2024\"",
+    "timestamp": "2024-05-19 02:25:33.897362 +00:00"
+  },
+  {
+    "dag_run_id": 11,
+    "task_id": "print_date",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "fharenheit",
+    "run_id": "manual__2024-05-18T23:05:55.831714+00:00",
+    "value": "\"Sun May 19 11:25:33 KST 2024\"",
+    "timestamp": "2024-05-19 02:25:33.919708 +00:00"
+  },
+  {
+    "dag_run_id": 14,
+    "task_id": "templated",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "fharenheit",
+    "run_id": "scheduled__2024-05-18T00:00:00+00:00",
+    "value": "\"2024-05-25\"",
+    "timestamp": "2024-05-19 02:25:35.498726 +00:00"
+  },
+  {
+    "dag_run_id": 11,
+    "task_id": "templated",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "fharenheit",
+    "run_id": "manual__2024-05-18T23:05:55.831714+00:00",
+    "value": "\"2024-05-25\"",
+    "timestamp": "2024-05-19 02:25:35.639814 +00:00"
+  },
+  {
+    "dag_run_id": 11,
+    "task_id": "sleep",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "fharenheit",
+    "run_id": "manual__2024-05-18T23:05:55.831714+00:00",
+    "value": "\"\"",
+    "timestamp": "2024-05-19 02:25:40.756086 +00:00"
+  },
+  {
+    "dag_run_id": 14,
+    "task_id": "sleep",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "fharenheit",
+    "run_id": "scheduled__2024-05-18T00:00:00+00:00",
+    "value": "\"\"",
+    "timestamp": "2024-05-19 02:25:40.890729 +00:00"
+  },
+  {
+    "dag_run_id": 15,
+    "task_id": "print_date",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "fharenheit",
+    "run_id": "manual__2024-05-19T02:26:25.852799+00:00",
+    "value": "\"Sun May 19 11:26:27 KST 2024\"",
+    "timestamp": "2024-05-19 02:26:27.517362 +00:00"
+  },
+  {
+    "dag_run_id": 20,
+    "task_id": "print_date",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "fharenheit",
+    "run_id": "manual__2024-05-19T02:39:41.505555+00:00",
+    "value": "\"Sun May 19 11:39:43 KST 2024\"",
+    "timestamp": "2024-05-19 02:39:43.068933 +00:00"
+  },
+  {
+    "dag_run_id": 21,
+    "task_id": "print_date",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "fharenheit",
+    "run_id": "manual__2024-05-19T02:40:29.203330+00:00",
+    "value": "\"Sun May 19 11:40:30 KST 2024\"",
+    "timestamp": "2024-05-19 02:40:30.557978 +00:00"
+  },
+  {
+    "dag_run_id": 21,
+    "task_id": "print_the_context",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "fharenheit",
+    "run_id": "manual__2024-05-19T02:40:29.203330+00:00",
+    "value": "\"Whatever you return gets printed in the logs\"",
+    "timestamp": "2024-05-19 02:40:31.633249 +00:00"
+  },
+  {
+    "dag_run_id": 20,
+    "task_id": "get_previous_success_timestamp",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "fharenheit",
+    "run_id": "manual__2024-05-19T02:39:41.505555+00:00",
+    "value": "\"Whatever you return gets printed in the logs\"",
+    "timestamp": "2024-05-19 02:56:16.026971 +00:00"
+  },
+  {
+    "dag_run_id": 20,
+    "task_id": "print_the_context",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "fharenheit",
+    "run_id": "manual__2024-05-19T02:39:41.505555+00:00",
+    "value": "\"Whatever you return gets printed in the logs\"",
+    "timestamp": "2024-05-19 02:56:16.031256 +00:00"
+  },
+  {
+    "dag_run_id": 19,
+    "task_id": "get_previous_success_timestamp",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "fharenheit",
+    "run_id": "manual__2024-05-19T02:35:41.749963+00:00",
+    "value": "\"Whatever you return gets printed in the logs\"",
+    "timestamp": "2024-05-19 02:56:35.326317 +00:00"
+  },
+  {
+    "dag_run_id": 19,
+    "task_id": "print_date",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "fharenheit",
+    "run_id": "manual__2024-05-19T02:35:41.749963+00:00",
+    "value": "\"Sun May 19 11:56:35 KST 2024\"",
+    "timestamp": "2024-05-19 02:56:35.345210 +00:00"
+  },
+  {
+    "dag_run_id": 19,
+    "task_id": "print_the_context",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "fharenheit",
+    "run_id": "manual__2024-05-19T02:35:41.749963+00:00",
+    "value": "\"Whatever you return gets printed in the logs\"",
+    "timestamp": "2024-05-19 02:56:37.346822 +00:00"
+  },
+  {
+    "dag_run_id": 22,
+    "task_id": "print_date",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "fharenheit",
+    "run_id": "manual__2024-05-19T06:37:35.497333+00:00",
+    "value": "\"Sun May 19 15:37:36 KST 2024\"",
+    "timestamp": "2024-05-19 06:37:36.735653 +00:00"
+  },
+  {
+    "dag_run_id": 22,
+    "task_id": "get_previous_success_timestamp",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "fharenheit",
+    "run_id": "manual__2024-05-19T06:37:35.497333+00:00",
+    "value": "\"Whatever you return gets printed in the logs\"",
+    "timestamp": "2024-05-19 06:37:36.758405 +00:00"
+  },
+  {
+    "dag_run_id": 22,
+    "task_id": "print_the_context",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "fharenheit",
+    "run_id": "manual__2024-05-19T06:37:35.497333+00:00",
+    "value": "\"Whatever you return gets printed in the logs\"",
+    "timestamp": "2024-05-19 06:37:37.862128 +00:00"
+  },
+  {
+    "dag_run_id": 23,
+    "task_id": "get_previous_success_timestamp",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "fharenheit",
+    "run_id": "manual__2024-05-19T07:01:48.531898+00:00",
+    "value": "\"Whatever you return gets printed in the logs\"",
+    "timestamp": "2024-05-19 07:01:50.285981 +00:00"
+  },
+  {
+    "dag_run_id": 23,
+    "task_id": "print_date",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "fharenheit",
+    "run_id": "manual__2024-05-19T07:01:48.531898+00:00",
+    "value": "\"Sun May 19 16:01:50 KST 2024\"",
+    "timestamp": "2024-05-19 07:01:50.311936 +00:00"
+  },
+  {
+    "dag_run_id": 23,
+    "task_id": "print_the_context",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "fharenheit",
+    "run_id": "manual__2024-05-19T07:01:48.531898+00:00",
+    "value": "\"Whatever you return gets printed in the logs\"",
+    "timestamp": "2024-05-19 07:01:51.713404 +00:00"
+  },
+  {
+    "dag_run_id": 24,
+    "task_id": "get_previous_success_timestamp",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "fharenheit",
+    "run_id": "manual__2024-05-19T07:02:23.533813+00:00",
+    "value": "{\"__classname__\": \"pendulum.datetime.DateTime\", \"__version__\": 2, \"__data__\": {\"timestamp\": 1716102108.531898, \"tz\": {\"__classname__\": \"builtins.tuple\", \"__version__\": 1, \"__data__\": [\"UTC\", \"pendulum.tz.timezone.Timezone\", 1, true]}}}",
+    "timestamp": "2024-05-19 07:02:24.937970 +00:00"
+  },
+  {
+    "dag_run_id": 24,
+    "task_id": "print_date",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "fharenheit",
+    "run_id": "manual__2024-05-19T07:02:23.533813+00:00",
+    "value": "\"Sun May 19 16:02:24 KST 2024\"",
+    "timestamp": "2024-05-19 07:02:24.941792 +00:00"
+  },
+  {
+    "dag_run_id": 24,
+    "task_id": "print_the_context",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "fharenheit",
+    "run_id": "manual__2024-05-19T07:02:23.533813+00:00",
+    "value": "\"Whatever you return gets printed in the logs\"",
+    "timestamp": "2024-05-19 07:02:26.867411 +00:00"
+  },
+  {
+    "dag_run_id": 25,
+    "task_id": "get_previous_success_timestamp",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "fharenheit",
+    "run_id": "manual__2024-05-19T07:04:08.693537+00:00",
+    "value": "{\"__classname__\": \"pendulum.datetime.DateTime\", \"__version__\": 2, \"__data__\": {\"timestamp\": 1716102143.533813, \"tz\": {\"__classname__\": \"builtins.tuple\", \"__version__\": 1, \"__data__\": [\"UTC\", \"pendulum.tz.timezone.Timezone\", 1, true]}}}",
+    "timestamp": "2024-05-19 07:04:09.801161 +00:00"
+  },
+  {
+    "dag_run_id": 25,
+    "task_id": "print_date",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "fharenheit",
+    "run_id": "manual__2024-05-19T07:04:08.693537+00:00",
+    "value": "\"Sun May 19 16:04:09 KST 2024\"",
+    "timestamp": "2024-05-19 07:04:09.814574 +00:00"
+  },
+  {
+    "dag_run_id": 25,
+    "task_id": "print_the_context",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "fharenheit",
+    "run_id": "manual__2024-05-19T07:04:08.693537+00:00",
+    "value": "\"Whatever you return gets printed in the logs\"",
+    "timestamp": "2024-05-19 07:04:10.850841 +00:00"
+  },
+  {
+    "dag_run_id": 26,
+    "task_id": "get_previous_success_timestamp",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "fharenheit",
+    "run_id": "manual__2024-05-19T07:14:22.073216+00:00",
+    "value": "{\"__classname__\": \"pendulum.datetime.DateTime\", \"__version__\": 2, \"__data__\": {\"timestamp\": 1716102248.693537, \"tz\": {\"__classname__\": \"builtins.tuple\", \"__version__\": 1, \"__data__\": [\"UTC\", \"pendulum.tz.timezone.Timezone\", 1, true]}}}",
+    "timestamp": "2024-05-19 07:14:23.387227 +00:00"
+  },
+  {
+    "dag_run_id": 26,
+    "task_id": "print_date",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "fharenheit",
+    "run_id": "manual__2024-05-19T07:14:22.073216+00:00",
+    "value": "\"Sun May 19 16:14:23 KST 2024\"",
+    "timestamp": "2024-05-19 07:14:23.405457 +00:00"
+  },
+  {
+    "dag_run_id": 26,
+    "task_id": "print_the_context",
+    "map_index": -1,
+    "key": "return_value",
+    "dag_id": "fharenheit",
+    "run_id": "manual__2024-05-19T07:14:22.073216+00:00",
+    "value": "\"Whatever you return gets printed in the logs\"",
+    "timestamp": "2024-05-19 07:14:24.432760 +00:00"
+  }
+]

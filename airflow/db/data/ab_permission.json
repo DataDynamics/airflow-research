@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "can_edit"
+  },
+  {
+    "id": 2,
+    "name": "can_read"
+  },
+  {
+    "id": 3,
+    "name": "can_create"
+  },
+  {
+    "id": 4,
+    "name": "can_delete"
+  },
+  {
+    "id": 5,
+    "name": "menu_access"
+  },
+  {
+    "id": 6,
+    "name": "can_list"
+  },
+  {
+    "id": 7,
+    "name": "menu_acccess"
+  }
+]

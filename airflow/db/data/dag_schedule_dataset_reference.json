@@ -1,0 +1,98 @@
+[
+  {
+    "dataset_id": 7,
+    "dag_id": "dataset_consumes_unknown_never_scheduled",
+    "created_at": "2024-05-18 19:43:37.695669 +00:00",
+    "updated_at": "2024-05-18 19:43:37.695675 +00:00"
+  },
+  {
+    "dataset_id": 8,
+    "dag_id": "dataset_consumes_unknown_never_scheduled",
+    "created_at": "2024-05-18 19:43:37.695678 +00:00",
+    "updated_at": "2024-05-18 19:43:37.695681 +00:00"
+  },
+  {
+    "dataset_id": 4,
+    "dag_id": "consume_1_or_2_with_dataset_expressions",
+    "created_at": "2024-05-18 19:43:37.696524 +00:00",
+    "updated_at": "2024-05-18 19:43:37.696530 +00:00"
+  },
+  {
+    "dataset_id": 6,
+    "dag_id": "consume_1_or_2_with_dataset_expressions",
+    "created_at": "2024-05-18 19:43:37.696534 +00:00",
+    "updated_at": "2024-05-18 19:43:37.696536 +00:00"
+  },
+  {
+    "dataset_id": 4,
+    "dag_id": "conditional_dataset_and_time_based_timetable",
+    "created_at": "2024-05-18 19:43:37.697132 +00:00",
+    "updated_at": "2024-05-18 19:43:37.697138 +00:00"
+  },
+  {
+    "dataset_id": 6,
+    "dag_id": "conditional_dataset_and_time_based_timetable",
+    "created_at": "2024-05-18 19:43:37.697141 +00:00",
+    "updated_at": "2024-05-18 19:43:37.697144 +00:00"
+  },
+  {
+    "dataset_id": 4,
+    "dag_id": "dataset_consumes_1_never_scheduled",
+    "created_at": "2024-05-18 19:43:37.697748 +00:00",
+    "updated_at": "2024-05-18 19:43:37.697754 +00:00"
+  },
+  {
+    "dataset_id": 9,
+    "dag_id": "dataset_consumes_1_never_scheduled",
+    "created_at": "2024-05-18 19:43:37.697757 +00:00",
+    "updated_at": "2024-05-18 19:43:37.697759 +00:00"
+  },
+  {
+    "dataset_id": 4,
+    "dag_id": "consume_1_and_2_with_dataset_expressions",
+    "created_at": "2024-05-18 19:43:37.698232 +00:00",
+    "updated_at": "2024-05-18 19:43:37.698238 +00:00"
+  },
+  {
+    "dataset_id": 6,
+    "dag_id": "consume_1_and_2_with_dataset_expressions",
+    "created_at": "2024-05-18 19:43:37.698241 +00:00",
+    "updated_at": "2024-05-18 19:43:37.698244 +00:00"
+  },
+  {
+    "dataset_id": 4,
+    "dag_id": "dataset_consumes_1",
+    "created_at": "2024-05-18 19:43:37.698833 +00:00",
+    "updated_at": "2024-05-18 19:43:37.698838 +00:00"
+  },
+  {
+    "dataset_id": 4,
+    "dag_id": "dataset_consumes_1_and_2",
+    "created_at": "2024-05-18 19:43:37.699243 +00:00",
+    "updated_at": "2024-05-18 19:43:37.699249 +00:00"
+  },
+  {
+    "dataset_id": 6,
+    "dag_id": "dataset_consumes_1_and_2",
+    "created_at": "2024-05-18 19:43:37.699252 +00:00",
+    "updated_at": "2024-05-18 19:43:37.699254 +00:00"
+  },
+  {
+    "dataset_id": 10,
+    "dag_id": "consume_1_or_both_2_and_3_with_dataset_expressions",
+    "created_at": "2024-05-18 19:43:37.699748 +00:00",
+    "updated_at": "2024-05-18 19:43:37.699753 +00:00"
+  },
+  {
+    "dataset_id": 4,
+    "dag_id": "consume_1_or_both_2_and_3_with_dataset_expressions",
+    "created_at": "2024-05-18 19:43:37.699756 +00:00",
+    "updated_at": "2024-05-18 19:43:37.699758 +00:00"
+  },
+  {
+    "dataset_id": 6,
+    "dag_id": "consume_1_or_both_2_and_3_with_dataset_expressions",
+    "created_at": "2024-05-18 19:43:37.699760 +00:00",
+    "updated_at": "2024-05-18 19:43:37.699763 +00:00"
+  }
+]

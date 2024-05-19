@@ -1,0 +1,642 @@
+[
+  {
+    "dag_id": "dataset_produces_1",
+    "task_id": "producing_task_1",
+    "run_id": "manual__2024-05-18T20:10:52.051590+00:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "sleep 5", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "dataset_produces_1",
+    "task_id": "producing_task_1",
+    "run_id": "scheduled__2024-05-17T00:00:00+00:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "sleep 5", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "example_bash_operator",
+    "task_id": "runme_2",
+    "run_id": "scheduled__2024-05-17T00:00:00+00:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "echo \"example_bash_operator__runme_2__20240517\" && sleep 1", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "example_bash_operator",
+    "task_id": "also_run_this",
+    "run_id": "scheduled__2024-05-17T00:00:00+00:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "echo \"ti_key=example_bash_operator__also_run_this__20240517\"", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "example_bash_operator",
+    "task_id": "runme_0",
+    "run_id": "manual__2024-05-19T05:11:46+09:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "echo \"example_bash_operator__runme_0__20240518\" && sleep 1", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "example_bash_operator",
+    "task_id": "runme_0",
+    "run_id": "scheduled__2024-05-17T00:00:00+00:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "echo \"example_bash_operator__runme_0__20240517\" && sleep 1", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "example_bash_operator",
+    "task_id": "runme_1",
+    "run_id": "manual__2024-05-19T05:11:46+09:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "echo \"example_bash_operator__runme_1__20240518\" && sleep 1", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "example_bash_operator",
+    "task_id": "runme_1",
+    "run_id": "scheduled__2024-05-17T00:00:00+00:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "echo \"example_bash_operator__runme_1__20240517\" && sleep 1", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "example_bash_operator",
+    "task_id": "this_will_skip",
+    "run_id": "scheduled__2024-05-17T00:00:00+00:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "echo \"hello world\"; exit 99;", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "example_bash_operator",
+    "task_id": "this_will_skip",
+    "run_id": "manual__2024-05-19T05:11:46+09:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "echo \"hello world\"; exit 99;", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "example_bash_operator",
+    "task_id": "runme_2",
+    "run_id": "manual__2024-05-19T05:11:46+09:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "echo \"example_bash_operator__runme_2__20240518\" && sleep 1", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "example_bash_operator",
+    "task_id": "also_run_this",
+    "run_id": "manual__2024-05-19T05:11:46+09:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "echo \"ti_key=example_bash_operator__also_run_this__20240518\"", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "example_bash_operator",
+    "task_id": "run_after_loop",
+    "run_id": "scheduled__2024-05-17T00:00:00+00:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "ls -alh --color=always / && echo https://airflow.apache.org/  && echo 'some <code>html</code>'", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "example_bash_operator",
+    "task_id": "run_after_loop",
+    "run_id": "manual__2024-05-19T05:11:46+09:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "ls -alh --color=always / && echo https://airflow.apache.org/  && echo 'some <code>html</code>'", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "tutorial",
+    "task_id": "print_date",
+    "run_id": "scheduled__2024-05-17T00:00:00+00:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "date", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "tutorial",
+    "task_id": "print_date",
+    "run_id": "manual__2024-05-18T20:14:01.350832+00:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "date", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "tutorial",
+    "task_id": "templated",
+    "run_id": "scheduled__2024-05-17T00:00:00+00:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "\n\n    echo \"2024-05-17\"\n    echo \"2024-05-24\"\n\n    echo \"2024-05-17\"\n    echo \"2024-05-24\"\n\n    echo \"2024-05-17\"\n    echo \"2024-05-24\"\n\n    echo \"2024-05-17\"\n    echo \"2024-05-24\"\n\n    echo \"2024-05-17\"\n    echo \"2024-05-24\"\n", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "tutorial",
+    "task_id": "sleep",
+    "run_id": "manual__2024-05-18T20:14:01.350832+00:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "sleep 5", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "tutorial",
+    "task_id": "sleep",
+    "run_id": "scheduled__2024-05-17T00:00:00+00:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "sleep 5", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "tutorial",
+    "task_id": "templated",
+    "run_id": "manual__2024-05-18T20:14:01.350832+00:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "\n\n    echo \"2024-05-18\"\n    echo \"2024-05-25\"\n\n    echo \"2024-05-18\"\n    echo \"2024-05-25\"\n\n    echo \"2024-05-18\"\n    echo \"2024-05-25\"\n\n    echo \"2024-05-18\"\n    echo \"2024-05-25\"\n\n    echo \"2024-05-18\"\n    echo \"2024-05-25\"\n", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "example_bash_operator",
+    "task_id": "runme_2",
+    "run_id": "manual__2024-05-19T05:28:24+09:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "echo \"example_bash_operator__runme_2__20240518\" && sleep 1", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "example_bash_operator",
+    "task_id": "runme_0",
+    "run_id": "manual__2024-05-19T05:28:24+09:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "echo \"example_bash_operator__runme_0__20240518\" && sleep 1", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "example_bash_operator",
+    "task_id": "this_will_skip",
+    "run_id": "manual__2024-05-19T05:28:24+09:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "echo \"hello world\"; exit 99;", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "example_bash_operator",
+    "task_id": "runme_1",
+    "run_id": "manual__2024-05-19T05:28:24+09:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "echo \"example_bash_operator__runme_1__20240518\" && sleep 1", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "example_bash_operator",
+    "task_id": "also_run_this",
+    "run_id": "manual__2024-05-19T05:28:24+09:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "echo \"ti_key=example_bash_operator__also_run_this__20240518\"", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "example_bash_operator",
+    "task_id": "this_will_skip",
+    "run_id": "manual__2024-05-19T05:38:42+09:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "echo \"hello world\"; exit 99;", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "example_bash_operator",
+    "task_id": "also_run_this",
+    "run_id": "manual__2024-05-19T05:38:42+09:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "echo \"ti_key=example_bash_operator__also_run_this__20240518\"", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "example_bash_operator",
+    "task_id": "runme_0",
+    "run_id": "manual__2024-05-19T05:38:42+09:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "echo \"example_bash_operator__runme_0__20240518\" && sleep 1", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "example_bash_operator",
+    "task_id": "runme_2",
+    "run_id": "manual__2024-05-19T05:38:42+09:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "echo \"example_bash_operator__runme_2__20240518\" && sleep 1", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "example_bash_operator",
+    "task_id": "runme_1",
+    "run_id": "manual__2024-05-19T05:38:42+09:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "echo \"example_bash_operator__runme_1__20240518\" && sleep 1", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "example_bash_operator",
+    "task_id": "run_after_loop",
+    "run_id": "manual__2024-05-19T05:38:42+09:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "ls -alh --color=always / && echo https://airflow.apache.org/  && echo 'some <code>html</code>'", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "fharenheit",
+    "task_id": "print_date",
+    "run_id": "scheduled__2024-05-17T00:00:00+00:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "date", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "fharenheit",
+    "task_id": "print_date",
+    "run_id": "manual__2024-05-18T21:33:12.685798+00:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "date", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "fharenheit",
+    "task_id": "sleep",
+    "run_id": "manual__2024-05-18T21:33:12.685798+00:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "sleep 5", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "fharenheit",
+    "task_id": "templated",
+    "run_id": "manual__2024-05-18T21:33:12.685798+00:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "\n\n    echo \"2024-05-18\"\n    echo \"2024-05-25\"\n\n    echo \"2024-05-18\"\n    echo \"2024-05-25\"\n\n    echo \"2024-05-18\"\n    echo \"2024-05-25\"\n\n    echo \"2024-05-18\"\n    echo \"2024-05-25\"\n\n    echo \"2024-05-18\"\n    echo \"2024-05-25\"\n", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "fharenheit",
+    "task_id": "templated",
+    "run_id": "scheduled__2024-05-17T00:00:00+00:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "\n\n    echo \"2024-05-17\"\n    echo \"2024-05-24\"\n\n    echo \"2024-05-17\"\n    echo \"2024-05-24\"\n\n    echo \"2024-05-17\"\n    echo \"2024-05-24\"\n\n    echo \"2024-05-17\"\n    echo \"2024-05-24\"\n\n    echo \"2024-05-17\"\n    echo \"2024-05-24\"\n", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "fharenheit",
+    "task_id": "sleep",
+    "run_id": "scheduled__2024-05-17T00:00:00+00:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "sleep 5", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "example_bash_operator",
+    "task_id": "run_after_loop",
+    "run_id": "manual__2024-05-19T05:28:24+09:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "ls -alh --color=always / && echo https://airflow.apache.org/  && echo 'some <code>html</code>'", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "example_bash_operator",
+    "task_id": "runme_0",
+    "run_id": "scheduled__2024-05-18T00:00:00+00:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "echo \"example_bash_operator__runme_0__20240518\" && sleep 1", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "example_bash_operator",
+    "task_id": "runme_1",
+    "run_id": "scheduled__2024-05-18T00:00:00+00:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "echo \"example_bash_operator__runme_1__20240518\" && sleep 1", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "tutorial",
+    "task_id": "print_date",
+    "run_id": "scheduled__2024-05-18T00:00:00+00:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "date", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "example_bash_operator",
+    "task_id": "also_run_this",
+    "run_id": "scheduled__2024-05-18T00:00:00+00:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "echo \"ti_key=example_bash_operator__also_run_this__20240518\"", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "example_bash_operator",
+    "task_id": "this_will_skip",
+    "run_id": "scheduled__2024-05-18T00:00:00+00:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "echo \"hello world\"; exit 99;", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "example_bash_operator",
+    "task_id": "runme_2",
+    "run_id": "scheduled__2024-05-18T00:00:00+00:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "echo \"example_bash_operator__runme_2__20240518\" && sleep 1", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "tutorial",
+    "task_id": "templated",
+    "run_id": "scheduled__2024-05-18T00:00:00+00:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "\n\n    echo \"2024-05-18\"\n    echo \"2024-05-25\"\n\n    echo \"2024-05-18\"\n    echo \"2024-05-25\"\n\n    echo \"2024-05-18\"\n    echo \"2024-05-25\"\n\n    echo \"2024-05-18\"\n    echo \"2024-05-25\"\n\n    echo \"2024-05-18\"\n    echo \"2024-05-25\"\n", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "tutorial",
+    "task_id": "sleep",
+    "run_id": "scheduled__2024-05-18T00:00:00+00:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "sleep 5", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "example_bash_operator",
+    "task_id": "run_after_loop",
+    "run_id": "scheduled__2024-05-18T00:00:00+00:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "ls -alh --color=always / && echo https://airflow.apache.org/  && echo 'some <code>html</code>'", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "fharenheit",
+    "task_id": "print_date",
+    "run_id": "scheduled__2024-05-18T00:00:00+00:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "date", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "fharenheit",
+    "task_id": "print_date",
+    "run_id": "manual__2024-05-18T23:05:55.831714+00:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "date", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "fharenheit",
+    "task_id": "templated",
+    "run_id": "scheduled__2024-05-18T00:00:00+00:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "\n\n    echo \"2024-05-18\"\n    echo \"2024-05-25\"\n\n    echo \"2024-05-18\"\n    echo \"2024-05-25\"\n\n    echo \"2024-05-18\"\n    echo \"2024-05-25\"\n\n    echo \"2024-05-18\"\n    echo \"2024-05-25\"\n\n    echo \"2024-05-18\"\n    echo \"2024-05-25\"\n", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "fharenheit",
+    "task_id": "templated",
+    "run_id": "manual__2024-05-18T23:05:55.831714+00:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "\n\n    echo \"2024-05-18\"\n    echo \"2024-05-25\"\n\n    echo \"2024-05-18\"\n    echo \"2024-05-25\"\n\n    echo \"2024-05-18\"\n    echo \"2024-05-25\"\n\n    echo \"2024-05-18\"\n    echo \"2024-05-25\"\n\n    echo \"2024-05-18\"\n    echo \"2024-05-25\"\n", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "fharenheit",
+    "task_id": "sleep",
+    "run_id": "manual__2024-05-18T23:05:55.831714+00:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "sleep 5", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "fharenheit",
+    "task_id": "sleep",
+    "run_id": "scheduled__2024-05-18T00:00:00+00:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "sleep 5", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "fharenheit",
+    "task_id": "print_date",
+    "run_id": "manual__2024-05-19T02:26:25.852799+00:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "date", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "fharenheit",
+    "task_id": "print_date",
+    "run_id": "manual__2024-05-19T02:27:13.114859+00:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "date1", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "fharenheit",
+    "task_id": "print_date",
+    "run_id": "manual__2024-05-19T02:27:19.263776+00:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "date1", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "fharenheit",
+    "task_id": "print_date",
+    "run_id": "manual__2024-05-19T02:28:07.320738+00:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "date1", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "fharenheit",
+    "task_id": "print_date",
+    "run_id": "manual__2024-05-19T02:39:41.505555+00:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "date", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "fharenheit",
+    "task_id": "print_date",
+    "run_id": "manual__2024-05-19T02:40:29.203330+00:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "date", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "fharenheit",
+    "task_id": "print_the_context",
+    "run_id": "manual__2024-05-19T02:40:29.203330+00:00",
+    "map_index": -1,
+    "rendered_fields": {"templates_dict": null, "op_args": [], "op_kwargs": {}},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "fharenheit",
+    "task_id": "get_previous_success_timestamp",
+    "run_id": "manual__2024-05-19T02:39:41.505555+00:00",
+    "map_index": -1,
+    "rendered_fields": {"templates_dict": null, "op_args": [], "op_kwargs": {}},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "fharenheit",
+    "task_id": "print_the_context",
+    "run_id": "manual__2024-05-19T02:39:41.505555+00:00",
+    "map_index": -1,
+    "rendered_fields": {"templates_dict": null, "op_args": [], "op_kwargs": {}},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "fharenheit",
+    "task_id": "get_previous_success_timestamp",
+    "run_id": "manual__2024-05-19T02:35:41.749963+00:00",
+    "map_index": -1,
+    "rendered_fields": {"templates_dict": null, "op_args": [], "op_kwargs": {}},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "fharenheit",
+    "task_id": "print_date",
+    "run_id": "manual__2024-05-19T02:35:41.749963+00:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "date", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "fharenheit",
+    "task_id": "print_the_context",
+    "run_id": "manual__2024-05-19T02:35:41.749963+00:00",
+    "map_index": -1,
+    "rendered_fields": {"templates_dict": null, "op_args": [], "op_kwargs": {}},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "fharenheit",
+    "task_id": "print_date",
+    "run_id": "manual__2024-05-19T06:37:35.497333+00:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "date", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "fharenheit",
+    "task_id": "get_previous_success_timestamp",
+    "run_id": "manual__2024-05-19T06:37:35.497333+00:00",
+    "map_index": -1,
+    "rendered_fields": {"templates_dict": null, "op_args": [], "op_kwargs": {}},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "fharenheit",
+    "task_id": "print_the_context",
+    "run_id": "manual__2024-05-19T06:37:35.497333+00:00",
+    "map_index": -1,
+    "rendered_fields": {"templates_dict": null, "op_args": [], "op_kwargs": {}},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "fharenheit",
+    "task_id": "get_previous_success_timestamp",
+    "run_id": "manual__2024-05-19T07:01:48.531898+00:00",
+    "map_index": -1,
+    "rendered_fields": {"templates_dict": null, "op_args": [], "op_kwargs": {}},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "fharenheit",
+    "task_id": "print_date",
+    "run_id": "manual__2024-05-19T07:01:48.531898+00:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "date", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "fharenheit",
+    "task_id": "print_the_context",
+    "run_id": "manual__2024-05-19T07:01:48.531898+00:00",
+    "map_index": -1,
+    "rendered_fields": {"templates_dict": null, "op_args": [], "op_kwargs": {}},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "fharenheit",
+    "task_id": "print_date",
+    "run_id": "manual__2024-05-19T07:02:23.533813+00:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "date", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "fharenheit",
+    "task_id": "get_previous_success_timestamp",
+    "run_id": "manual__2024-05-19T07:02:23.533813+00:00",
+    "map_index": -1,
+    "rendered_fields": {"templates_dict": null, "op_args": [], "op_kwargs": {}},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "fharenheit",
+    "task_id": "print_the_context",
+    "run_id": "manual__2024-05-19T07:02:23.533813+00:00",
+    "map_index": -1,
+    "rendered_fields": {"templates_dict": null, "op_args": [], "op_kwargs": {}},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "fharenheit",
+    "task_id": "print_date",
+    "run_id": "manual__2024-05-19T07:04:08.693537+00:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "date", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "fharenheit",
+    "task_id": "get_previous_success_timestamp",
+    "run_id": "manual__2024-05-19T07:04:08.693537+00:00",
+    "map_index": -1,
+    "rendered_fields": {"templates_dict": null, "op_args": [], "op_kwargs": {}},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "fharenheit",
+    "task_id": "print_the_context",
+    "run_id": "manual__2024-05-19T07:04:08.693537+00:00",
+    "map_index": -1,
+    "rendered_fields": {"templates_dict": null, "op_args": [], "op_kwargs": {}},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "fharenheit",
+    "task_id": "print_date",
+    "run_id": "manual__2024-05-19T07:14:22.073216+00:00",
+    "map_index": -1,
+    "rendered_fields": {"bash_command": "date", "env": null, "cwd": null},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "fharenheit",
+    "task_id": "get_previous_success_timestamp",
+    "run_id": "manual__2024-05-19T07:14:22.073216+00:00",
+    "map_index": -1,
+    "rendered_fields": {"templates_dict": null, "op_args": [], "op_kwargs": {}},
+    "k8s_pod_yaml": null
+  },
+  {
+    "dag_id": "fharenheit",
+    "task_id": "print_the_context",
+    "run_id": "manual__2024-05-19T07:14:22.073216+00:00",
+    "map_index": -1,
+    "rendered_fields": {"templates_dict": null, "op_args": [], "op_kwargs": {}},
+    "k8s_pod_yaml": null
+  }
+]

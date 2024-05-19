@@ -1,0 +1,72 @@
+[
+  {
+    "dataset_id": 1,
+    "dag_id": "dataset_consumes_unknown_never_scheduled",
+    "task_id": "unrelated_task",
+    "created_at": "2024-05-18 19:43:37.700522 +00:00",
+    "updated_at": "2024-05-18 19:43:37.700529 +00:00"
+  },
+  {
+    "dataset_id": 2,
+    "dag_id": "consume_1_or_2_with_dataset_expressions",
+    "task_id": "consume_1_or_2_with_dataset_expressions",
+    "created_at": "2024-05-18 19:43:37.701177 +00:00",
+    "updated_at": "2024-05-18 19:43:37.701183 +00:00"
+  },
+  {
+    "dataset_id": 3,
+    "dag_id": "conditional_dataset_and_time_based_timetable",
+    "task_id": "conditional_dataset_and_time_based_timetable",
+    "created_at": "2024-05-18 19:43:37.701648 +00:00",
+    "updated_at": "2024-05-18 19:43:37.701654 +00:00"
+  },
+  {
+    "dataset_id": 2,
+    "dag_id": "dataset_consumes_1_never_scheduled",
+    "task_id": "consuming_3",
+    "created_at": "2024-05-18 19:43:37.702063 +00:00",
+    "updated_at": "2024-05-18 19:43:37.702069 +00:00"
+  },
+  {
+    "dataset_id": 2,
+    "dag_id": "consume_1_and_2_with_dataset_expressions",
+    "task_id": "consume_1_and_2_with_dataset_expressions",
+    "created_at": "2024-05-18 19:43:37.702489 +00:00",
+    "updated_at": "2024-05-18 19:43:37.702495 +00:00"
+  },
+  {
+    "dataset_id": 4,
+    "dag_id": "dataset_produces_1",
+    "task_id": "producing_task_1",
+    "created_at": "2024-05-18 19:43:37.702899 +00:00",
+    "updated_at": "2024-05-18 19:43:37.702904 +00:00"
+  },
+  {
+    "dataset_id": 5,
+    "dag_id": "dataset_consumes_1",
+    "task_id": "consuming_1",
+    "created_at": "2024-05-18 19:43:37.703338 +00:00",
+    "updated_at": "2024-05-18 19:43:37.703361 +00:00"
+  },
+  {
+    "dataset_id": 2,
+    "dag_id": "dataset_consumes_1_and_2",
+    "task_id": "consuming_2",
+    "created_at": "2024-05-18 19:43:37.703723 +00:00",
+    "updated_at": "2024-05-18 19:43:37.703729 +00:00"
+  },
+  {
+    "dataset_id": 2,
+    "dag_id": "consume_1_or_both_2_and_3_with_dataset_expressions",
+    "task_id": "consume_1_or_both_2_and_3_with_dataset_expressions",
+    "created_at": "2024-05-18 19:43:37.704103 +00:00",
+    "updated_at": "2024-05-18 19:43:37.704109 +00:00"
+  },
+  {
+    "dataset_id": 6,
+    "dag_id": "dataset_produces_2",
+    "task_id": "producing_task_2",
+    "created_at": "2024-05-18 19:43:37.704504 +00:00",
+    "updated_at": "2024-05-18 19:43:37.704510 +00:00"
+  }
+]

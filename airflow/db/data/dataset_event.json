@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "dataset_id": 4,
+    "extra": {},
+    "source_task_id": "producing_task_1",
+    "source_dag_id": "dataset_produces_1",
+    "source_run_id": "manual__2024-05-18T20:10:52.051590+00:00",
+    "source_map_index": -1,
+    "timestamp": "2024-05-18 20:10:58.793910 +00:00"
+  },
+  {
+    "id": 2,
+    "dataset_id": 4,
+    "extra": {},
+    "source_task_id": "producing_task_1",
+    "source_dag_id": "dataset_produces_1",
+    "source_run_id": "scheduled__2024-05-17T00:00:00+00:00",
+    "source_map_index": -1,
+    "timestamp": "2024-05-18 20:10:58.799124 +00:00"
+  }
+]

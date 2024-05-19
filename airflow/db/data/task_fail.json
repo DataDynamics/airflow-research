@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "task_id": "runme_2",
+    "dag_id": "example_bash_operator",
+    "run_id": "manual__2024-05-19T05:28:24+09:00",
+    "map_index": -1,
+    "start_date": "2024-05-18 20:28:29.062149 +00:00",
+    "end_date": "2024-05-18 20:28:29.500414 +00:00",
+    "duration": 0
+  },
+  {
+    "id": 2,
+    "task_id": "runme_0",
+    "dag_id": "example_bash_operator",
+    "run_id": "manual__2024-05-19T05:28:24+09:00",
+    "map_index": -1,
+    "start_date": "2024-05-18 20:28:29.147415 +00:00",
+    "end_date": "2024-05-18 20:28:29.610276 +00:00",
+    "duration": 0
+  },
+  {
+    "id": 3,
+    "task_id": "this_will_skip",
+    "dag_id": "example_bash_operator",
+    "run_id": "manual__2024-05-19T05:28:24+09:00",
+    "map_index": -1,
+    "start_date": "2024-05-18 20:28:29.227339 +00:00",
+    "end_date": "2024-05-18 20:28:29.689217 +00:00",
+    "duration": 0
+  },
+  {
+    "id": 4,
+    "task_id": "runme_1",
+    "dag_id": "example_bash_operator",
+    "run_id": "manual__2024-05-19T05:28:24+09:00",
+    "map_index": -1,
+    "start_date": "2024-05-18 20:28:29.444011 +00:00",
+    "end_date": "2024-05-18 20:28:29.750569 +00:00",
+    "duration": 0
+  },
+  {
+    "id": 5,
+    "task_id": "also_run_this",
+    "dag_id": "example_bash_operator",
+    "run_id": "manual__2024-05-19T05:28:24+09:00",
+    "map_index": -1,
+    "start_date": "2024-05-18 20:28:29.496937 +00:00",
+    "end_date": "2024-05-18 20:28:29.843811 +00:00",
+    "duration": 0
+  },
+  {
+    "id": 6,
+    "task_id": "print_date",
+    "dag_id": "fharenheit",
+    "run_id": "manual__2024-05-18T23:05:55.831714+00:00",
+    "map_index": -1,
+    "start_date": null,
+    "end_date": "2024-05-18 23:05:57.560155 +00:00",
+    "duration": null
+  },
+  {
+    "id": 7,
+    "task_id": "print_date",
+    "dag_id": "fharenheit",
+    "run_id": "manual__2024-05-19T02:27:13.114859+00:00",
+    "map_index": -1,
+    "start_date": "2024-05-19 02:27:14.162445 +00:00",
+    "end_date": "2024-05-19 02:27:14.390730 +00:00",
+    "duration": 0
+  },
+  {
+    "id": 8,
+    "task_id": "print_date",
+    "dag_id": "fharenheit",
+    "run_id": "manual__2024-05-19T02:27:19.263776+00:00",
+    "map_index": -1,
+    "start_date": "2024-05-19 02:27:20.861398 +00:00",
+    "end_date": "2024-05-19 02:27:21.075125 +00:00",
+    "duration": 0
+  },
+  {
+    "id": 9,
+    "task_id": "print_date",
+    "dag_id": "fharenheit",
+    "run_id": "manual__2024-05-19T02:28:07.320738+00:00",
+    "map_index": -1,
+    "start_date": "2024-05-19 02:28:08.809260 +00:00",
+    "end_date": "2024-05-19 02:28:09.035873 +00:00",
+    "duration": 0
+  },
+  {
+    "id": 10,
+    "task_id": "print_date",
+    "dag_id": "fharenheit",
+    "run_id": "manual__2024-05-19T02:35:41.749963+00:00",
+    "map_index": -1,
+    "start_date": "2024-05-19 02:35:42.989326 +00:00",
+    "end_date": "2024-05-19 02:35:43.216549 +00:00",
+    "duration": 0
+  },
+  {
+    "id": 11,
+    "task_id": "print_the_context",
+    "dag_id": "fharenheit",
+    "run_id": "manual__2024-05-19T02:39:41.505555+00:00",
+    "map_index": -1,
+    "start_date": "2024-05-19 02:39:44.999619 +00:00",
+    "end_date": "2024-05-19 02:39:45.203504 +00:00",
+    "duration": 0
+  }
+]
